@@ -1,0 +1,26 @@
+[0.948s] Invoking command in '/home/vikee/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/vikee/ros2_ws/build/my_py_pkg/prefix_override:/home/vikee/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vikee/ros2_ws/build/my_py_pkg/build install --record /home/vikee/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed
+[1.196s] /home/vikee/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.196s]   warnings.warn(
+[1.229s] running egg_info
+[1.230s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.230s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.231s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.231s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.231s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.237s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.240s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.241s] running build
+[1.243s] running build_py
+[1.244s] copying my_py_pkg/my_first_node.py -> /home/vikee/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.246s] running install
+[1.246s] running install_lib
+[1.246s] copying /home/vikee/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/vikee/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.246s] byte-compiling /home/vikee/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-38.pyc
+[1.246s] running install_data
+[1.246s] running install_egg_info
+[1.246s] removing '/home/vikee/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.246s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/vikee/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[1.247s] running install_scripts
+[1.271s] Installing py_node script to /home/vikee/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.271s] writing list of installed files to '/home/vikee/ros2_ws/build/my_py_pkg/install.log'
+[1.310s] Invoked command in '/home/vikee/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/vikee/ros2_ws/build/my_py_pkg/prefix_override:/home/vikee/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vikee/ros2_ws/build/my_py_pkg/build install --record /home/vikee/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed
